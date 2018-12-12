@@ -3,7 +3,7 @@
     "name": "Chrome Extension Sample",
     "description": "This extension allows you to identify Open Graph of a webpage",
     "version": "1.0",
-    "homepage_url": "https://github.com/dvidsilva/chrome-ext-sample",
+    "homepage_url": "https://github.com/branhamrico/fanrock-extension",
     "browser_action": {
         "default_icon": "favicon.png",
         "default_title": "ChromiePop"
