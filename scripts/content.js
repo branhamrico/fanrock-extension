@@ -3,7 +3,7 @@ chrome.runtime.onMessage.addListener( (request, sender, sendResponse) => {
     let ogExists = document.getElementById('ogDataModal');
 
     // check if current page previously appended the modal for Open Graph listing
-    if (!ogExists) {
+    if (!ogExists && request.data === 'load modal') {
         wrapperDiv = document.createElement("div");
         wrapperDiv.setAttribute('id', 'ogDataWrapperDiv');
 
